@@ -1,7 +1,7 @@
-package com.enjoy.james.service.impl;
+package com.xxt.mockmvc.service.impl;
 
-import com.enjoy.james.annotation.MockService;
-import com.enjoy.james.service.MyService;
+import com.xxt.mockmvc.annotation.MockService;
+import com.xxt.mockmvc.service.MyService;
 
 @MockService("MyServiceImpl")
 public class MyServiceImpl implements MyService {

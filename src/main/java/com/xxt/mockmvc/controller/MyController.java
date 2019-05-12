@@ -1,4 +1,4 @@
-package com.enjoy.james.controller;
+package com.xxt.mockmvc.controller;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -6,11 +6,11 @@ import java.io.PrintWriter;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.enjoy.james.annotation.MockController;
-import com.enjoy.james.annotation.MockQualifier;
-import com.enjoy.james.annotation.MockRequestMapping;
-import com.enjoy.james.annotation.MockRequestParam;
-import com.enjoy.james.service.MyService;
+import com.xxt.mockmvc.annotation.MockController;
+import com.xxt.mockmvc.annotation.MockQualifier;
+import com.xxt.mockmvc.annotation.MockRequestMapping;
+import com.xxt.mockmvc.annotation.MockRequestParam;
+import com.xxt.mockmvc.service.MyService;
 
 @MockController
 @MockRequestMapping("/james")

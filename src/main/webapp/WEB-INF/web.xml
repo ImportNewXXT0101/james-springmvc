@@ -8,7 +8,7 @@
   	<servlet-name>DispatcherServlet</servlet-name>
   	<display-name>DispatcherServlet</display-name>
   	<description></description>
-  	<servlet-class>com.enjoy.james.servlet.DispatcherServlet</servlet-class>
+  	<servlet-class>com.xxt.mockmvc.servlet.DispatcherServlet</servlet-class>
   	<load-on-startup>0</load-on-startup>
   </servlet>
   <servlet-mapping>

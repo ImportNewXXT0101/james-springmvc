@@ -1,4 +1,4 @@
-package com.enjoy.james.annotation;
+package com.xxt.mockmvc.annotation;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
@@ -9,6 +9,6 @@ import java.lang.annotation.Target;
 @Target({ElementType.PARAMETER})
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
-public @interface MockRequestHeader {
+public @interface MockRequestParam {
     String value() default "";
 }

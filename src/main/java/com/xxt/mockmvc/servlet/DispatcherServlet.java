@@ -1,4 +1,4 @@
-package com.enjoy.james.servlet;
+package com.xxt.mockmvc.servlet;
 
 import java.io.File;
 import java.io.IOException;
@@ -19,12 +19,12 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.enjoy.james.annotation.MockController;
-import com.enjoy.james.annotation.MockQualifier;
-import com.enjoy.james.annotation.MockRequestMapping;
-import com.enjoy.james.annotation.MockService;
-import com.enjoy.james.controller.MyController;
-import com.enjoy.james.handlerAdapter.HandlerAdapterService;
+import com.xxt.mockmvc.annotation.MockController;
+import com.xxt.mockmvc.annotation.MockQualifier;
+import com.xxt.mockmvc.annotation.MockRequestMapping;
+import com.xxt.mockmvc.annotation.MockService;
+import com.xxt.mockmvc.controller.MyController;
+import com.xxt.mockmvc.handlerAdapter.HandlerAdapterService;
 
 /**
  * Servlet implementation class DispatcherServlet

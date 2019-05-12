@@ -1,4 +1,4 @@
-package com.enjoy.james.handlerAdapter;
+package com.xxt.mockmvc.handlerAdapter;
 
 import java.lang.reflect.Method;
 import java.util.Map;

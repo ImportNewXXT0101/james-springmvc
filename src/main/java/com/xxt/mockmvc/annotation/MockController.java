@@ -1,4 +1,4 @@
-package com.enjoy.james.annotation;
+package com.xxt.mockmvc.annotation;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.Retention;

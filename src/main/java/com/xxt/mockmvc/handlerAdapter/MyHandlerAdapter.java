@@ -1,4 +1,4 @@
-package com.enjoy.james.handlerAdapter;
+package com.xxt.mockmvc.handlerAdapter;
 
 import java.lang.reflect.Method;
 import java.util.HashMap;
@@ -7,8 +7,8 @@ import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.enjoy.james.annotation.MockService;
-import com.enjoy.james.argumentResolver.ArgumentResolver;
+import com.xxt.mockmvc.annotation.MockService;
+import com.xxt.mockmvc.argumentResolver.ArgumentResolver;
 
 @MockService("jamesHandlerAdapter")
 public class MyHandlerAdapter implements HandlerAdapterService {

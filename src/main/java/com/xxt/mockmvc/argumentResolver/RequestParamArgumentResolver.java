@@ -1,4 +1,4 @@
-package com.enjoy.james.argumentResolver;
+package com.xxt.mockmvc.argumentResolver;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
@@ -6,8 +6,8 @@ import java.lang.reflect.Method;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.enjoy.james.annotation.MockRequestParam;
-import com.enjoy.james.annotation.MockService;
+import com.xxt.mockmvc.annotation.MockRequestParam;
+import com.xxt.mockmvc.annotation.MockService;
 
 @MockService("requestParamArgumentResolver")
 //解析声明注解为RequestParam, 获取注解的值

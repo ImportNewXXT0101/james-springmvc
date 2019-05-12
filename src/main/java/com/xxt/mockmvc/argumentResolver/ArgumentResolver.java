@@ -1,4 +1,4 @@
-package com.enjoy.james.argumentResolver;
+package com.xxt.mockmvc.argumentResolver;
 
 import java.lang.reflect.Method;
 

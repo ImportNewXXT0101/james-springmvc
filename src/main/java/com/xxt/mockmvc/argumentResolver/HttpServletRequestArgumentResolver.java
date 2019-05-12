@@ -1,4 +1,4 @@
-package com.enjoy.james.argumentResolver;
+package com.xxt.mockmvc.argumentResolver;
 
 import java.lang.reflect.Method;
 
@@ -6,7 +6,7 @@ import javax.servlet.ServletRequest;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.enjoy.james.annotation.MockService;
+import com.xxt.mockmvc.annotation.MockService;
 
 @MockService("httpServletRequestArgumentResolver")
 public class HttpServletRequestArgumentResolver implements ArgumentResolver {

@@ -1,4 +1,4 @@
-package com.enjoy.james.service;
+package com.xxt.mockmvc.service;
 
 public interface MyService {
     
